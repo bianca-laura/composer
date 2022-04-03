@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Curso de composer</h1>
+
+    <p> Para vc instalar o composer na sua maquina vc precisa entrar na pasta desejada
+        pelo cmd e la da o comando <strong>composer install</strong> ele vai criar
+        umas pasta com todas as coisas necessarias. <br />
+        logo a apos da um composer init e ir criando os dados necessarios.<br />
+        o primeiro passo solicitado é o nome do projeto nome/composer-php obs: nao pode ter 
+        letras maiusculas. <br />
+        2 passo descrição do projeto. <br />    
+        3 passo author o seu nome e o email entre <> <br />
+        4 e 5 e o 6 pode deixar em branco <br />
+        7 e 8 no <br />
+        9 é o nome do seu PSR4 ele ja vai te da uma previa se quiser alterar escreve como deseja na 
+        frente se nao so dar enter <br />
+        ele vai te mostrar como vai ficar o seu json e vc diz se aceira ou nn 
+
+
+
+
+    </p>
+
+    <h1>Chamando suas classes com o composer</h1>
+
+    <p>
+        No seu arquivo index vc tem q dar um require no seu auto load q normalmente fica na 
+        pasta vendor então o codigo ficaria assim: <br />
+        <strong>require 'vendor/autoload.php'</strong> <br />
+        e em todas as suas classes usando o namespace vc tem q dar o caminho do seu PSR4 ex: <br />
+        <strong>namespace Biancalaura\ComposerPhp;</strong> <br />
+        Lembrando q as classes precisam estar dentro da pasta que está ordenando no PSR4 <br />
+        E agora no seu index vc so informa o caminho das classes usando o use ex: <br />
+        <strong>use Biancalaura\ComposerPhp\Student;</strong>
+    </p>
+</body>
+</html>
